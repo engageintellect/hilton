@@ -98,7 +98,7 @@
 						class="absolute inset-0 flex items-center justify-center text-5xl font-bold text-white drop-shadow"
 						style="opacity: 1;"
 					>
-						Map
+						Resort Map
 					</div>
 				</div>
 			</a>
