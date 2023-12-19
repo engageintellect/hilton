@@ -19,15 +19,16 @@
 					class="my-5 flex w-full flex-col justify-center gap-2 uppercase sm:max-w-lg sm:flex-row"
 				>
 					<div class="w-full">
-						<a href="/" class="flex w-full justify-center rounded bg-blue-500 px-6 py-4 shadow"
-							>Contact Us</a
-						>
-					</div>
-					<div class="w-full">
 						<a
 							href="/#menu"
 							class="flex w-full justify-center rounded bg-indigo-500 px-6 py-4 shadow"
 							>Get Started</a
+						>
+					</div>
+
+					<div class="w-full">
+						<a href="/" class="flex w-full justify-center rounded bg-blue-500 px-6 py-4 shadow"
+							>Contact Us</a
 						>
 					</div>
 				</div>
