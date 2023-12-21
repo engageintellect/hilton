@@ -4,17 +4,32 @@
 	export let price = 'Price';
 	export let type = 'Type';
 	export let imageURL = 'Image';
-	export let menuURL = 'Menu';
+	export let menuURL = '';
 </script>
 
-<div class="relative h-64 w-2/3 flex-shrink-0 cursor-pointer rounded border shadow sm:w-[300px]">
+<div class="relative w-2/3 flex-shrink-0 cursor-pointer rounded border shadow sm:w-[300px]">
+	<img src={imageURL} alt="" class="h-24 w-full rounded-t object-cover sm:h-48 md:h-52" />
+
+	{#if menuURL}
+		<div class="absolute right-0 top-0 p-2">
+			<button class="rounded bg-white px-4 py-2 text-sm uppercase shadow">Menu</button>
+		</div>
+	{/if}
+	<div class="p-2 font-bold drop-shadow">
+		<div>{name}</div>
+		<div class="text-sm font-thin">{description}</div>
+	</div>
+</div>
+
+<!-- 
+<div class="relative w-2/3 flex-shrink-0 cursor-pointer rounded border shadow sm:w-[300px]">
 	<a target="_blank" href={menuURL}>
 		<div class="h-full w-full overflow-hidden rounded">
 			<img src={imageURL} alt={imageURL} class="h-full w-full object-cover" />
 		</div>
 
 		<div
-			class="absolute inset-0 flex flex-col items-center justify-center rounded bg-zinc-900/60 text-center text-white transition-opacity duration-300 sm:opacity-0 sm:hover:opacity-100"
+			class="absolute inset-0 flex flex-col rounded bg-zinc-900/60 text-white transition-opacity duration-300 sm:opacity-0 sm:hover:opacity-100"
 		>
 			<div class="p-2 font-bold drop-shadow">
 				<div>{name}</div>
@@ -24,4 +39,4 @@
 			</div>
 		</div>
 	</a>
-</div>
+</div> -->
