@@ -4,25 +4,24 @@
 	export let price = 'Price';
 	export let type = 'Type';
 	export let imageURL = 'Image';
+	export let menuURL = 'Menu';
 </script>
 
-<!-- <div class="scroll-hide mx-auto h-full w-full max-w-5xl overflow-x-scroll"> -->
-<!-- <div class="flex flex-row gap-2"> -->
-<div class="relative h-64 w-2/3 flex-shrink-0 rounded border shadow sm:w-1/3">
-	<div class="h-full w-full overflow-hidden rounded">
-		<img src={imageURL} alt={imageURL} class="h-full w-full object-cover" />
-	</div>
-
-	<div
-		class="absolute inset-0 flex flex-col items-center justify-center rounded bg-zinc-900/50 text-center text-white opacity-0 transition-opacity duration-300 hover:opacity-100"
-	>
-		<div class="font-bold drop-shadow">
-			<div>{name}</div>
-			<div>{description}</div>
-			<div>{type}</div>
-			<div>{price}</div>
+<div class="relative h-64 w-2/3 flex-shrink-0 cursor-pointer rounded border shadow sm:w-[300px]">
+	<a target="_blank" href={menuURL}>
+		<div class="h-full w-full overflow-hidden rounded">
+			<img src={imageURL} alt={imageURL} class="h-full w-full object-cover" />
 		</div>
-	</div>
-	<!-- </div> -->
-	<!-- </div> -->
+
+		<div
+			class="absolute inset-0 flex flex-col items-center justify-center rounded bg-zinc-900/60 text-center text-white transition-opacity duration-300 sm:opacity-0 sm:hover:opacity-100"
+		>
+			<div class="p-2 font-bold drop-shadow">
+				<div>{name}</div>
+				<div class="text-sm font-thin">{description}</div>
+				<div>{type}</div>
+				<div>{price}</div>
+			</div>
+		</div>
+	</a>
 </div>

@@ -11,7 +11,28 @@
 
 	<div class="my-10" id="resturaunts">
 		<div class="text-lg font-bold uppercase">
-			<a href="#resturaunts">All Resturaunts</a>
+			<a href="#resturaunts">All Food</a>
+		</div>
+
+		<div class="scroll-hide mx-auto h-full w-full max-w-5xl overflow-x-scroll">
+			<div class="flex flex-row gap-2">
+				{#each allFood as food}
+					<CardRow
+						name={food.name}
+						type={food.type}
+						price={food.price}
+						imageURL={food.imageURL}
+						description={food.description}
+						menuURL={food.menuURL}
+					/>
+				{/each}
+			</div>
+		</div>
+	</div>
+
+	<div class="my-10" id="resturaunts">
+		<div class="text-lg font-bold uppercase">
+			<a href="#resturaunts">Resturaunts</a>
 		</div>
 
 		<div class="scroll-hide mx-auto h-full w-full max-w-5xl overflow-x-scroll">
@@ -24,6 +45,30 @@
 							price={food.price}
 							imageURL={food.imageURL}
 							description={food.description}
+							menuURL={food.menuURL}
+						/>
+					{/if}
+				{/each}
+			</div>
+		</div>
+	</div>
+
+	<div class="my-10" id="bars">
+		<div class="text-lg font-bold uppercase">
+			<a href="#snacks">Bars</a>
+		</div>
+
+		<div class="scroll-hide mx-auto h-full w-full max-w-5xl overflow-x-scroll">
+			<div class="flex flex-row gap-2">
+				{#each allFood as food}
+					{#if food.type == 'bar'}
+						<CardRow
+							name={food.name}
+							type={food.type}
+							price={food.price}
+							imageURL={food.imageURL}
+							description={food.description}
+							menuURL={food.menuURL}
 						/>
 					{/if}
 				{/each}
@@ -46,6 +91,7 @@
 							price={food.price}
 							imageURL={food.imageURL}
 							description={food.description}
+							menuURL={food.menuURL}
 						/>
 					{/if}
 				{/each}
@@ -67,6 +113,7 @@
 							price={food.price}
 							imageURL={food.imageURL}
 							description={food.description}
+							menuURL={food.menuURL}
 						/>
 					{/if}
 				{/each}
