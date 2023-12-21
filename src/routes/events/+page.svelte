@@ -10,7 +10,7 @@
 	/> -->
 
 	<div class="flex w-full justify-center">
-		<div class="mx-auto flex w-full max-w-3xl flex-col gap-2 p-6">
+		<div class="mx-auto flex w-full max-w-3xl flex-col gap-2 p-2">
 			<Card
 				eventName="Surf Lessons"
 				eventDescription="Dolor exercitation quis pariatur elit nostrud et laborum anim cillum qui veniam amet. Ut aliqua cupidatat laborum culpa. Et fugiat reprehenderit anim dolore ex tempor occaecat tempor nulla. Magna fugiat deserunt ut aliqua. Quis amet ad incididunt culpa consequat."

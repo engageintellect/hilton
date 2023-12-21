@@ -48,7 +48,7 @@
 						alt=""
 					/>
 					<div
-						class="absolute inset-0 flex items-center justify-center text-5xl font-bold text-white drop-shadow"
+						class="absolute inset-0 flex items-center justify-center text-3xl font-bold text-white drop-shadow md:text-5xl"
 						style="opacity: 1;"
 					>
 						Stuff to do
@@ -64,7 +64,7 @@
 						alt=""
 					/>
 					<div
-						class="absolute inset-0 flex items-center justify-center text-5xl font-bold text-white drop-shadow"
+						class="absolute inset-0 flex items-center justify-center text-3xl font-bold text-white drop-shadow md:text-5xl"
 						style="opacity: 1;"
 					>
 						Food
@@ -80,7 +80,7 @@
 						alt=""
 					/>
 					<div
-						class="absolute inset-0 flex items-center justify-center text-5xl font-bold text-white drop-shadow"
+						class="absolute inset-0 flex items-center justify-center text-3xl font-bold text-white drop-shadow md:text-5xl"
 						style="opacity: 1;"
 					>
 						Events
@@ -96,7 +96,7 @@
 						alt=""
 					/>
 					<div
-						class="absolute inset-0 flex items-center justify-center text-5xl font-bold text-white drop-shadow"
+						class="absolute inset-0 flex items-center justify-center text-3xl font-bold text-white drop-shadow md:text-5xl"
 						style="opacity: 1;"
 					>
 						Resort Map
