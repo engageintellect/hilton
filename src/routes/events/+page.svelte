@@ -21,7 +21,7 @@
 
 			<Card
 				eventName="Luau"
-				eventDescription="Dolor exercitation quis pariatur elit nostrud et laborum anim cillum qui veniam amet. Ut aliqua cupidatat laborum culpa. Et fugiat reprehenderit anim dolore ex tempor occaecat tempor nulla. Magna fugiat deserunt ut aliqua. Quis amet ad incididunt culpa consequat."
+				eventDescription="Dolor exercitaliqua cupidatat laborum culpa. Et fugiat reprehenderit anim dolore ex tempor occaecat tempor nulla. Magna fugiat deserunt ut aliqua. Quis amet ad incididunt culpa consequat."
 				eventDate="12/21/23"
 				eventTime="4:00pm"
 				eventImage="https://i.ytimg.com/vi/UrNlEpiG2zI/maxresdefault.jpg"
@@ -37,7 +37,7 @@
 
 			<Card
 				eventName="Some event"
-				eventDescription="Dolor exercitation quis pariatur elit nostrud et laborum anim cillum qui veniam amet. Ut aliqua cupidatat laborum culpa. Et fugiat reprehenderit anim dolore ex tempor occaecat tempor nulla. Magna fugiat deserunt ut aliqua. Quis amet ad incididunt culpa consequat."
+				eventDescription="Dolor exercitation quis dksjd kdsj dlksj dkdsljd lksjd sdkljs dlkjdsk pariatur elit nostrud et laborum anim cillum qui veniam amet. Ut aliqua cupidatat laborum culpa. Et fugiat reprehenderit anim dolore ex tempor occaecat tempor nulla. Magna fugiat deserunt ut aliqua. Quis amet ad incididunt culpa consequat."
 				eventDate="12/21/23"
 				eventTime="4:00pm"
 				eventImage="https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/5f/2c/b6.jpg"

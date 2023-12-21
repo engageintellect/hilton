@@ -7,7 +7,7 @@
 </script>
 
 <div class="w-full rounded bg-purple-500 shadow">
-	<div class="flex w-full">
+	<div class="flex">
 		<div class="w-full text-white">
 			<div class="flex h-full flex-col gap-2 text-xs">
 				<div class="row flex w-full gap-5 rounded-tl bg-purple-700 p-2 shadow">
