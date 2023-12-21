@@ -12,7 +12,12 @@
 
 	{#if menuURL}
 		<div class="absolute right-0 top-0 p-2">
-			<button class="rounded bg-white px-4 py-2 text-sm uppercase shadow">Menu</button>
+			<a target="_blank" href={menuURL}>
+				<button
+					class="rounded bg-white px-4 py-2 text-sm uppercase shadow sm:hover:bg-black sm:hover:text-white"
+					>Menu</button
+				>
+			</a>
 		</div>
 	{/if}
 	<div class="p-2 font-bold drop-shadow">
