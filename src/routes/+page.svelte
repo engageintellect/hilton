@@ -8,15 +8,15 @@
 		<div
 			class="absolute top-0 flex h-full w-full items-center justify-center text-white drop-shadow-lg"
 		>
-			<div class="flex flex-col items-center justify-center px-6">
+			<div class="flex flex-col items-center justify-center px-6 tracking-tight">
 				<div class="text-5xl font-bold sm:text-7xl">Welcome To Our Village.</div>
-				<div class="mt-5 w-full max-w-2xl font-thin sm:text-xl">
+				<div class="mt-5 w-full max-w-2xl sm:text-xl">
 					Lorem cillum pariatur nostrud veniam ipsum aliqua ullamco velit ad qui consequat. Proident
 					culpa culpa proident occaecat non esse eu nostrud enim sit. In sit ut do deserunt. Ex non
 				</div>
 
 				<div
-					class="my-5 flex w-full flex-col justify-center gap-2 uppercase sm:max-w-lg sm:flex-row"
+					class="my-5 flex w-full flex-col justify-center gap-2 font-semibold uppercase sm:max-w-lg sm:flex-row"
 				>
 					<div class="w-full">
 						<a
