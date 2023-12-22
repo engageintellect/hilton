@@ -98,7 +98,7 @@ export const allFood = [
 	rating: '3',
 	price: '2',
 	menuURL: '',
-	imageURL: 'https://images.squarespace-cdn.com/content/v1/5e155597124c2c0cab493f6e/38477268-bb29-4e6a-b8fc-273169c3ec69/shop+abc_Hilton+Hawaiian+Village_PointsMiler.JPG'
+	imageURL: 'https://dining.staradvertiser.com/wp-content/uploads/2014/08/fresco_20140817_02.jpg'
 },
 
 {

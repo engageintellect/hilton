@@ -7,21 +7,20 @@
 	export let menuURL = '';
 </script>
 
-<div class="relative w-2/3 flex-shrink-0 cursor-pointer rounded border shadow sm:w-[300px]">
-	<img src={imageURL} alt="" class="h-24 w-full rounded-t object-cover sm:h-48 md:h-52" />
+<div
+	class="group relative my-5 w-2/3 flex-shrink-0 cursor-pointer rounded bg-white shadow sm:w-[300px]"
+>
+	<img src={imageURL} alt="" class="h-32 w-full rounded-t object-cover sm:h-48 md:h-52" />
 
 	{#if menuURL}
-		<div class="absolute right-0 top-0 p-2">
+		<div class="absolute left-0 top-0 p-2">
 			<a target="_blank" href={menuURL}>
-				<button
-					class="rounded bg-white px-4 py-2 text-sm uppercase shadow sm:hover:bg-black sm:hover:text-white"
-					>Menu</button
-				>
+				<button class="rounded bg-white px-4 py-2 text-sm uppercase shadow">Menu</button>
 			</a>
 		</div>
 	{/if}
-	<div class="p-2 font-bold drop-shadow">
-		<div>{name}</div>
+	<div class="  p-2">
+		<div class="font-semibold">{name}</div>
 		<div class="text-sm font-thin">{description}</div>
 	</div>
 </div>
